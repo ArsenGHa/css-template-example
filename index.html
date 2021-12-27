@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0815a74c65.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar" id="mySidebar">
+        <h1 class="navbar_header">Side Navigation</h1>
+        <button class="close_navbar" onclick="w3_close(#myHeader)">Close <i class="fa fa-remove"></i></button>
+        <a href="#" class="navbar_link">Link 1</a>
+        <a href="#" class="navbar_link">Link 2</a>
+        <a href="#" class="navbar_link">Link 3</a>
+        <a href="#" class="navbar_link">Link 4</a>
+    </nav>
+
+    <header class="main_header" id="myHeader">
+        <i onclick="w3_open(#mySidebar)" class="fa fa-bars"></i> 
+        <div class="w3-center">
+        <h4>BEAUTIFUL RESPONSIVE WEB SITES</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom">BUILT WITH W3.CSS</h1>
+          <div class="w3-padding-32">
+            <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">LEARN W3.CSS</button>
+          </div>
+        </div>
+    </header>
+</body>
+</html>
